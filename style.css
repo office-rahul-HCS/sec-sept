@@ -84,20 +84,16 @@ header{
     justify-content: center;
     flex-direction: column;
 }
-.sign-up{
-    
-    padding: auto;
-    /* border: 1px solid #fff; */
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 30%; 
-
-     
-     
-   
+.hero_header{
+    padding: 10px;
 }
+.hero_text{
+    text-align: center;
+    width: 360px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
 h1{
     font-size: 3rem;
 }
@@ -112,7 +108,7 @@ h1{
     padding: auto;
     
 }
-.sign{
+.sign_btn{
     background-color: #fff;
     color: #de4e62;
     padding: 5px 15px 5px;
