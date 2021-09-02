@@ -128,10 +128,11 @@ h1{
     
 }
 .play{
-    background-color: black;
-    border-radius: 100px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    background-color: #de4e62;
+    border-radius: 100px ;
+    padding:5px 5px 10px 10px;
+    border: 1px solid #de4e62;
+
 }
 .about-text p{ 
     color: #000 !important;
@@ -141,11 +142,12 @@ h1{
     color: #000 !important;
     
 }
-.about-text a{ 
-    color: #000 !important;
-    margin-bottom: 20px;
-    background-color: blueviolet;
-}
+.about-text .link{ 
+    margin-top: 20px;
+color: #000 !important;
+    
+    /* background-color: blueviolet; */
+    display: inline-block;}
 
 .about-text p{ 
     color: #000 !important;
@@ -156,7 +158,7 @@ h1{
 .about-img .play{
     position: absolute;
     top: 50%;
-    left: -5px;
+    left: -28px;
     transform: translate(50%);
     
     
