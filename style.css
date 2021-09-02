@@ -32,7 +32,7 @@ header{
     
 }
 #cloud{
-    color: #ccc;
+    color: #fff;
     
 }
 
@@ -140,13 +140,14 @@ h1{
 }
 .about-text .link{ 
     margin-top: 20px;
-color: #000 !important;
+color: #de4e62 !important;
     
     /* background-color: blueviolet; */
     display: inline-block;}
 
 .about-text p{ 
     color: #000 !important;
+    padding-right: 180px;
 }
 .about-img{
     position: relative;
