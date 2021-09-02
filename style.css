@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: #fff;
+    /* background-color: black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    
+    max-width: 1280px;
+    
+    margin: 0 auto;
+}
+header{
+    position: absolute;
+    width: 100%;
+}
+
+
+.nav{
+    /* color: #ffffff; */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+#cloud{
+    color: #ccc;
+    
+}
+
+.first-ul{
+    display: flex;
+    
+
+}
+.first-ul li{
+    padding-left: 10px;
+}
+.second-ul{
+    display: flex;
+    
+}
+.second-ul li{
+    padding-left: 10px;
+}
+#lan{
+    
+    border-radius: 150px;
+    
+}
+.login-btn{
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 3px;
+
+}
+.hero-section{
+    background-image: url(./img/hero_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.hero-section .container {
+    height: 100%;
+}
+.hero_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-up{
+    
+    padding: auto;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 30%; 
+
+     
+     
+   
+}
+h1{
+    font-size: 3rem;
+}
+
+.p{  
+    /* font-size: 2rem; */
+    line-height: 25px;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    padding: auto;
+    
+}
+.sign{
+    background-color: #fff;
+    color: #de4e62;
+    padding: 5px 15px 5px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+.lower-content{
+    display: flex;
+    /* background-color: tomato; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    
+}
+.play{
+    background-color: black;
+    border-radius: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.about-text p{ 
+    color: #000 !important;
+    margin-top: 5%;
+}
+.about-text h2{ 
+    color: #000 !important;
+    
+}
+.about-text a{ 
+    color: #000 !important;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+}
+
+.about-text p{ 
+    color: #000 !important;
+}
+.about-img{
+    position: relative;
+}
+.about-img .play{
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    transform: translate(50%);
+    
+    
+}
+
+
+
